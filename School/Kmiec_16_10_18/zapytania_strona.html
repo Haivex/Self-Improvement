@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>obraz</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#wybrana_wartosc {
+			display: none;
+		}
+	</style>
+	</head>
+	<body>
+	<form name="klasa_formularz" method="post" action="skrypt.php">
+	Wybierz klasę: 
+		<select name="klasa_opcje" id="klasa_opcje">
+		<option value="1">Klasa TiA</option>
+		<option value="3">Klasa TiB</option>
+		<option value="2">Klasa TiC</option>
+		</select>
+		<input type="text" name="wybrana_wartosc" id="wybrana_wartosc">
+		<input type="submit" value="Wyślij" onclick="funkcja()">
+		<script type="text/javascript">
+			function funkcja()
+			{
+			var wybrana = document.getElementById("klasa_opcje").value; 
+			var pole = klasa_formularz.wybrana_wartosc.value = wybrana;
+			//var wypisz = document.getElementById("wypisz");
+			//wypisz.innerHTML = pole; 
+			}
+		</script>
+	</form>
+	<!-- <p id="wypisz" name="wypisz"></p> -->
+	</body>
+</html>

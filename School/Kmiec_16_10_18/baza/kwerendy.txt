@@ -1,0 +1,7 @@
+SELECT nazwa FROM `przedmioty` ORDER BY nazwa ASC;
+
+SELECT dane_osobowe.imie_o, uczniowie.nazwisko FROM `dane_osobowe` JOIN uczniowie ON dane_osobowe.nr_u=uczniowie.nr_u;
+
+SELECT uczniowie.imie, uczniowie.nazwisko, dane_osobowe.imie_o FROM `dane_osobowe` JOIN uczniowie ON dane_osobowe.nr_u=uczniowie.nr_u WHERE uczniowie.imie=dane_osobowe.imie_o;
+
+INSERT INTO przedmioty (nr_p, nazwa) VALUES (5, "historia");

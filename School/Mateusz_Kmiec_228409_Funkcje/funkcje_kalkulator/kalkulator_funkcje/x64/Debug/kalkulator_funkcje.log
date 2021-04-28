@@ -1,0 +1,10 @@
+﻿  glowny.c
+C:\Users\student\Desktop\Mateusz_Kmiec_228409_Funkcje\funkcje_kalkulator\kalkulator_funkcje\glowny.c(93,12): warning C4477: „printf”: ciąg formatu „%f” wymaga argumentu typu „double”, ale argument 1 ze zmienną liczbą argumentów ma typ „float *”
+C:\Users\student\Desktop\Mateusz_Kmiec_228409_Funkcje\funkcje_kalkulator\kalkulator_funkcje\glowny.c(103,12): warning C4477: „printf”: ciąg formatu „%f” wymaga argumentu typu „double”, ale argument 1 ze zmienną liczbą argumentów ma typ „float *”
+C:\Users\student\Desktop\Mateusz_Kmiec_228409_Funkcje\funkcje_kalkulator\kalkulator_funkcje\glowny.c(104,12): warning C4477: „printf”: ciąg formatu „%f” wymaga argumentu typu „double”, ale argument 1 ze zmienną liczbą argumentów ma typ „float *”
+C:\Users\student\Desktop\Mateusz_Kmiec_228409_Funkcje\funkcje_kalkulator\kalkulator_funkcje\glowny.c(120,20): warning C4244: "funkcja": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\student\Desktop\Mateusz_Kmiec_228409_Funkcje\funkcje_kalkulator\kalkulator_funkcje\glowny.c(120,23): warning C4244: "funkcja": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\student\Desktop\Mateusz_Kmiec_228409_Funkcje\funkcje_kalkulator\kalkulator_funkcje\glowny.c(120,24): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\student\Desktop\Mateusz_Kmiec_228409_Funkcje\funkcje_kalkulator\kalkulator_funkcje\glowny.c(132,20): warning C4244: "funkcja": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\student\Desktop\Mateusz_Kmiec_228409_Funkcje\funkcje_kalkulator\kalkulator_funkcje\glowny.c(132,21): warning C4244: "=": konwersja z "unsigned __int64" do "float", możliwa utrata danych
+  kalkulator_funkcje.vcxproj -> C:\Users\student\Desktop\Mateusz_Kmiec_228409_Funkcje\funkcje_kalkulator\kalkulator_funkcje\x64\Debug\kalkulator_funkcje.exe

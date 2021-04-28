@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg4491"
+   inkscape:export-filename="C:\Users\student\Desktop\Kmieć Sportowcy\iii.png"
+   inkscape:export-xdpi="32.114204"
+   inkscape:export-ydpi="32.114204"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="rysunek.svg">
+  <defs
+     id="defs4485">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5234"
+       osb:paint="gradient">
+      <stop
+         style="stop-color:#0000e0;stop-opacity:1;"
+         offset="0"
+         id="stop5230" />
+      <stop
+         style="stop-color:#ffff00;stop-opacity:1"
+         offset="1"
+         id="stop5232" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5234"
+       id="linearGradient5238"
+       gradientUnits="userSpaceOnUse"
+       x1="50.121273"
+       y1="117.0507"
+       x2="125.99931"
+       y2="89.90168"
+       gradientTransform="translate(1.3922576,-3.1325796)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5234"
+       id="linearGradient5248"
+       gradientUnits="userSpaceOnUse"
+       x1="3.4336438"
+       y1="80.155869"
+       x2="182.78082"
+       y2="80.155869"
+       gradientTransform="translate(1.3922576,-3.1325796)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.76015625"
+     inkscape:cx="426.10975"
+     inkscape:cy="765.9535"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer5"
+     showgrid="false"
+     inkscape:snap-text-baseline="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4488">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:inline">
+    <rect
+       style="opacity:1;fill:url(#linearGradient5238);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient5248);stroke-width:0.094;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5166"
+       width="179.25317"
+       height="101.6348"
+       x="4.8729014"
+       y="26.205891" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="display:none;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 78.265745,58.018741 c 0,0 27.811415,-25.350227 55.130585,0"
+       id="path5094"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:Algerian;-inkscape-font-specification:Algerian;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="text5100"
+       transform="translate(-46.64063,-4.8729017)"><textPath
+         xlink:href="#path5094"
+         startOffset="50%"
+         id="textPath5102"><tspan
+   style="stroke-width:0.26458332"
+   id="tspan5098"><tspan
+     id="tspan5096"
+     style="fill:#ffff00;stroke-width:0.26458332"
+     y="36.552544"
+     x="82.756966">SPORTOWCY</tspan></tspan></textPath></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5117"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:Algerian;-inkscape-font-specification:Algerian;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-4.5248375,6.6132237)"><flowRegion
+         id="flowRegion5119"><rect
+           id="rect5121"
+           width="280.20554"
+           height="52.620762"
+           x="44.727646"
+           y="363.46521" /></flowRegion><flowPara
+         id="flowPara5123">Lekkoatleci</flowPara></flowRoot>    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#808080;fill-opacity:0;fill-rule:nonzero;stroke:#ffdf00;stroke-width:0.094;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path5270"
+       sodipodi:sides="5"
+       sodipodi:cx="-30.629667"
+       sodipodi:cy="76.675224"
+       sodipodi:r1="51.444107"
+       sodipodi:r2="25.722054"
+       sodipodi:arg1="0.79975124"
+       sodipodi:arg2="1.4280698"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="-1.006"
+       d="M -30.006499,92.579537 1.865743,63.029598 -27.443038,86.221644 -87.069541,41.008851 -132.1228,88.339257 -100.06053,107.04163 -82.616276,70.880081 -65.219284,87.068175 0.91935091,65.242511 -34.794651,86.948873 Z"
+       inkscape:transform-center-x="-24.434771"
+       inkscape:transform-center-y="8.833988" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 3" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Layer 4">
+    <path
+       id="path5296"
+       style="opacity:1;fill:#510000;fill-opacity:0;fill-rule:nonzero;stroke:#040000;stroke-width:0.062;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95979901"
+       d="m 124.22966,79.308545 15.89877,2.55139 10.99271,-12.45993 2.6277,16.84342 14.55737,7.2504 -14.27476,7.858425 -1.99575,16.94091 -11.44999,-11.98665 -15.79082,3.21966 7.19828,-15.266565 z"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

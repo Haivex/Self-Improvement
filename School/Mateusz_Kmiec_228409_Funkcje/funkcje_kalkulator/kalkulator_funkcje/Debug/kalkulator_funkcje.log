@@ -1,0 +1,4 @@
+﻿  glowny.c
+C:\Users\student\Desktop\funkcje_kalkulator\kalkulator_funkcje\glowny.c(48,23): warning C4244: "funkcja": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Desktop\funkcje_kalkulator\kalkulator_funkcje\glowny.c(48,26): warning C4244: "funkcja": konwersja z "double" do "float", możliwa utrata danych
+LINK : fatal error LNK1168: nie można otworzyć pliku C:\Users\student\Desktop\funkcje_kalkulator\kalkulator_funkcje\Debug\kalkulator_funkcje.exe do zapisu

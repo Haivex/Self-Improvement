@@ -1,0 +1,4 @@
+Dokonaj podziału na funkjcję, kodu kalkulatora z poprzedniego zadania.
+Ocena Dostateczna (3) - dodawanie, odejmowanie, mnożenie, dzielenie (zabepieczyć przed dzieleniem przez zero), pierwiastki trójmianu kwadratowego (ax^2 + bx +c)
+Ocena Dobra (4) - dodatkowo operacja modulo (reszta z dzielenia przez liczbę całkowitą) oraz funckja trygonometryczna sinus oraz logarytm naturalny z wykorzystaniem biblioteki math.h
+Ocena Bardzo Dobra (5) - Funkcjonalności z zadań na ocene (3) i (4) oraz modularyzacja otrzymanego kodu (podział na pliki funkcje.c i funkcje.h) 

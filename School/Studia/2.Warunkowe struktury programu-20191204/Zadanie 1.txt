@@ -1,0 +1,4 @@
+Przeœlij plik realizuj¹cy funkcjê kalkulatora.
+Ocena Dostateczna (3) - dodawanie, odejmowanie, mno¿enie, dzielenie (zabepieczyæ przed dzieleniem przez zero)
+Ocena Dobra (4) - dodatkowo operacja modulo (reszta z dzielenia przez liczbê ca³kowit¹)
+Ocena Bardzo Dobra (5) - dodatkowo funckja trygonometryczna sinus z wykorzystaniem biblioteki math.h radiany, katy

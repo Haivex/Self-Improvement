@@ -1,0 +1,16 @@
+Napisaæ program który w tablicy 2D zapisuje tabliczkê mno¿enia i wyœwietla j¹ na ekranie. Liczba wierszy i kolumn tabliczki mno¿enia jak i liczba pocz¹tkowa powinna byæ zadawana przez u¿ytkownika.
+
+tablica maks 10x10
+
+np poczatkowe: 3 i 5
+liczba kolumn: 4 
+liczba wierszy: 4
+Przyklad:
+	5 6 7 8	
+3
+
+4
+
+5
+
+6

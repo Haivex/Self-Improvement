@@ -1,0 +1,9 @@
+INSERT INTO `kategorie`(`nazwa`, `opis`) VALUES ('zio³a','Do upraw przydomowych');
+
+SELECT nazwa,(ilosc_na_jedn*jedn_na_stanie) AS 'iloœæ sztuk' FROM produkty WHERE wyczerpano=0 ORDER BY 'iloœæ sztuk' DESC;
+
+SELECT produkty.nazwa, kategorie.nazwa, dostawcy.nazwa FROM `produkty` JOIN kategorie ON produkty.kategoria_ID=kategorie.ID_kategorii JOIN dostawcy ON produkty.dostawca_ID=dostawcy.ID_dostawcy WHERE `ilosc_na_jedn`>10;
+
+CREATE USER 'Rolnik'@'localhost' IDENTIFIED BY 'widly_123'
+
+GRANT SELECT, UPDATE ON ogrod.* TO 'Rolnik'@'localhost'

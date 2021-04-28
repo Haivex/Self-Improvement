@@ -1,0 +1,11 @@
+Przeœlij plik programu wypisuj¹cego na ekranie zestaw znaków w postaci rosn¹cej piramidy:
+
+*
+*+
+*+*
+*+*+
+
+- do iteracji wierszy zastosuj konstrukcjê while ( ... )
+- do iteracji kolumn zastosuj konstrukcjê for ( ; ; )
+- znaki wypisuj za pomoc¹ putchar() lub printf()
+- do wypisywania naprzemiennie * i + zastosuj instrukcjê warunkow¹ ? :
