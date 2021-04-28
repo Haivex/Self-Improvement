@@ -1,0 +1,14 @@
+function uniteUnique(...arr) {
+  let sortedunion = [];
+  for(let nested of arr) {
+    for(let el of nested)
+    {
+      if(!sortedunion.includes(el)) {
+        sortedunion.push(el);
+      }
+    }
+  }
+  return sortedunion;
+}
+
+uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);

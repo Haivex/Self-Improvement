@@ -1,0 +1,15 @@
+function convertHTML(str) {
+  let entities = {
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&apos;" 
+  }
+  let reg = /[&<>"']/g;
+  let newstr = str.replace(reg, found => entities[found]);
+  return newstr;
+  
+}
+
+convertHTML("Dolce & Gabbana");

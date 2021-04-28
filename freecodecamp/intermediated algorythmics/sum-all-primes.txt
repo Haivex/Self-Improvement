@@ -1,0 +1,18 @@
+function sumPrimes(num) {
+let foundPrimes = 0;
+let primesArray = [];
+  for(let i=1; i<=num; i++) {
+    foundPrimes = 0;
+    for(let j=1; j<=i;j++) {
+      if(i % j == 0) {
+        foundPrimes++;
+      }
+    }
+    if(foundPrimes < 3 && foundPrimes > 1) {
+      primesArray.push(i);
+    }
+  }
+  return primesArray.reduce((a, b) => a + b);
+}
+
+sumPrimes(10);

@@ -1,0 +1,21 @@
+let sampleWord = "astronaut";
+let pwRegex = /^\D(?=\w{5})(?=\w*\d{2})/;; // Change this line
+let result = pwRegex.test(sampleWord);
+
+/*our regex should use two positive lookaheads.
+Passed
+Your regex should not match "astronaut"
+Passed
+Your regex should not match "banan1"
+Passed
+Your regex should match "bana12"
+Passed
+Your regex should match "abc123"
+Passed
+Your regex should not match "1234"
+Passed
+Your regex should not match "8pass99"
+Passed
+Your regex should not match "12abcde"
+Passed
+Your regex should match "astr1on11aut"*/

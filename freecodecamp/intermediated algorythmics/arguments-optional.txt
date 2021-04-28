@@ -1,0 +1,26 @@
+function addTogether(...argsX) {
+  if(argsX.length > 1) {
+    if(argsX.every(el => typeof(el) == 'number')) {
+      return argsX[0] + argsX[1];
+    }
+      return undefined;
+  }
+  else {
+    if(typeof(argsX[0]) != 'number') {
+      return undefined;
+    }
+    return function(argY) {
+      if(typeof(argsX[0]) == 'number'  && typeof(argY) == 'number')
+      {
+        return argsX[0] + argY;
+      }
+        return undefined;
+      
+    }
+  }
+}
+
+addTogether(2,3);
+
+
+/*https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-arguments-optional/14271*/

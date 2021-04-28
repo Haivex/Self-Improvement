@@ -1,0 +1,9 @@
+function diffArray(arr1, arr2) {
+  var newArr = [];
+  let firstDiff = arr1.filter(el => !arr2.includes(el));
+  let secondDiff = arr2.filter(el => !arr1.includes(el));
+  newArr = firstDiff.concat(secondDiff);
+  return newArr;
+}
+
+diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);

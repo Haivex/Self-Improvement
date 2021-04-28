@@ -1,0 +1,22 @@
+function translatePigLatin(str) {
+  let consonants = ["b", "c", "d", "e", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "x", "z", "w", "y"];
+  let vowels = ["a", "e", "i", "o", "u"];
+  let splitedStr = str.split("");
+  for(let el of vowels) {
+    if(str.startsWith(el)) {
+      return str+"way";
+    }
+  }
+
+  for(let el of str) {
+    if(consonants.some(cons => cons == el)) {
+      splitedStr.push(splitedStr.shift());
+    }
+    else {
+      return splitedStr.join("")+"ay";
+    }
+  }
+  return splitedStr.join("")+"ay";
+}
+
+translatePigLatin("consonant");

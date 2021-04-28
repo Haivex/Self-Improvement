@@ -1,0 +1,15 @@
+/*split join reverse*/
+function reverseString(str) {
+  let reverseArray = [];
+  for(let i = 0; i<str.length; i++) {
+    reverseArray.push(str[i]);
+  }
+  let newstr = "";
+  for(let i=0; i<str.length; i++) {
+    newstr += reverseArray.pop();
+  }
+  
+  return newstr;
+}
+
+reverseString("hello");

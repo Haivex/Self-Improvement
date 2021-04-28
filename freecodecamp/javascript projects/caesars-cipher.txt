@@ -1,0 +1,27 @@
+function rot13(str) {
+  let lettersArray = str.split("");
+  let caesarLetters = [];
+  let reg = /[A-Z]/;
+  let cipherNumber;
+
+  for(let i = 0; i < lettersArray.length; i++) {
+      if(reg.test(lettersArray[i])) {
+        let letterAsNumber = lettersArray[i].charCodeAt(0);
+        if(letterAsNumber - 13 < 65) {
+          cipherNumber = 91 - (65 - (letterAsNumber - 13));
+        }
+        else {
+          cipherNumber = letterAsNumber - 13;
+        }
+        
+        let cipherLetter = String.fromCharCode(cipherNumber);
+        caesarLetters.push(cipherLetter);
+      }
+      else {
+        caesarLetters.push(lettersArray[i]);
+      }
+  }
+  return caesarLetters.join("");
+}
+
+rot13("SERR PBQR PNZC");

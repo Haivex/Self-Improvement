@@ -1,0 +1,27 @@
+function palindrome(str) {
+  let charsArray = str.toLowerCase().split("");
+  let alphanumArray = [];
+  let reg = /[A-Za-z0-9]/;
+
+  for(let i = 0; i<charsArray.length; i++) {
+    if(reg.test(charsArray[i])) {
+      alphanumArray.push(charsArray[i])
+    }
+  }
+
+  let alphanumArrayNotReversed = [...alphanumArray];
+  let alphanumArrayReversed = [...alphanumArray.reverse()];
+
+  for(let i = 0; i<alphanumArray.length; i++) {
+    if(alphanumArrayReversed[i] != alphanumArrayNotReversed[i]) {
+      return false;
+    }
+  }
+  return true;
+}
+
+
+
+//palindrome("eye");
+//palindrome("five|\_/|four");
+palindrome("nope");

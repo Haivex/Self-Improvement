@@ -1,0 +1,20 @@
+function smallestCommons(arr) {
+  let product = 1;
+  let numbers = [];
+  let isDivide = true;
+  
+  let max = Math.max(arr[0], arr[1]);
+  let min = Math.min(arr[0], arr[1]);
+  for(let i=min; i<=max; i++) {
+    numbers.push(i);
+  }
+  let checkingMultiple = [...numbers];
+  while(!numbers.every(el => checkingMultiple[checkingMultiple.length-1] % el == 0)) {
+    checkingMultiple.push(checkingMultiple.length);
+  }
+  console.log(checkingMultiple[checkingMultiple.length - 1]);
+  return checkingMultiple[checkingMultiple.length - 1];
+}
+
+//smallestCommons([1,5]);
+smallestCommons([2,10]);

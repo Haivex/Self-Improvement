@@ -1,0 +1,10 @@
+function destroyer(arr, ...args) {
+  let newarr = [...arr];
+  for(let i = 0; i < args.length; i++) {
+    newarr = newarr.filter(el => el != args[i]);
+  }
+  console.log(newarr);
+  return newarr;
+}
+
+destroyer([1, 2, 3, 1, 2, 3], 2, 3);

@@ -1,0 +1,22 @@
+function pairElement(str) {
+  let pairedArray = [];
+  for(let letter of str) {
+    switch(letter) {
+      case "A":
+        pairedArray.push([letter, "T"]); 
+        break;
+      case "T":
+        pairedArray.push([letter, "A"]); 
+        break;
+      case "C":
+        pairedArray.push([letter, "G"]); 
+        break;
+      case "G":
+        pairedArray.push([letter, "C"]); 
+        break;
+    }
+  }
+  return pairedArray;
+}
+
+pairElement("GCG");

@@ -1,0 +1,79 @@
+function checkCashRegister(price, cash, cid) {
+  //Przemnozyc wszystkie ceny jako 100
+  let beforePayment = cid.map(function(arr) {
+    return arr.slice();
+});
+  let change = (cash * 100) - (price * 100);
+  cid.map(el => el[1] *= 100);
+  let changeInCoins = [];
+  let currentChange = 0;
+  let counter = -1;
+ 
+  let currencies = {
+    "PENNY": 1,
+    "NICKEL": 5,
+    "DIME": 10,
+    "QUARTER": 25,
+    "ONE": 100,
+    "FIVE": 500,
+    "TEN": 1000,
+    "TWENTY": 2000,
+    "ONE HUNDRED": 10000
+  };
+
+  for(let i = cid.length - 1; i >= 0; i--) {
+    counter++;
+    changeInCoins.push([cid[i][0], 0]);
+    if(currentChange + currencies[cid[i][0]] > change) {
+      //console.log("Nie mozna dodac: "+currencies[cid[i][0]]/100);
+      continue;
+    }
+    while(cid[i][1] > 0) {
+      if(currentChange + currencies[cid[i][0]] > change) {
+        break;
+      }
+      currentChange += currencies[cid[i][0]];
+      cid[i][1] -= currencies[cid[i][0]];
+      changeInCoins[counter][1] += currencies[cid[i][0]];  
+      //console.log(currentChange/100);
+      //console.log(changeInCoins);
+    }
+    if(currentChange == change) {
+      break;
+    }
+  }
+
+  if(currentChange == change) {
+     let drawerSum = 0;
+
+    cid.forEach(function(el) {
+        drawerSum += el[1];
+    });
+    console.log(drawerSum);
+    if(drawerSum == 0) {
+      console.log("CLOSED");
+      console.log(beforePayment);
+      return {status: "CLOSED", change: beforePayment};
+    }
+    else {
+      console.log("OPEN");
+      changeInCoins = changeInCoins.filter(el => el[1] > 0);
+      changeInCoins.map(el => el[1] /= 100);
+      console.log(changeInCoins);
+      return {status: "OPEN", change: changeInCoins};
+    }
+  }
+  else {
+    console.log("INSUFFICIENT");
+    return {status: "INSUFFICIENT_FUNDS", change: []};
+  }
+
+}
+
+checkCashRegister(19.5, 20, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]);
+
+//checkCashRegister(3.26, 100, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]);
+
+//checkCashRegister(19.5, 20, [["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]);
+
+//checkCashRegister(19.5, 20, [["PENNY", 0.5], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]);

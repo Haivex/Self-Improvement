@@ -1,0 +1,21 @@
+function whatIsInAName(collection, source) {
+  var arr = [];
+  let result;
+  // Only change code below this line
+  for(let elc of collection){
+    result = true;
+    for(let elk of Object.keys(source))
+    {
+      if(!(elc.hasOwnProperty(elk) && elc[elk] == source[elk])) {
+        result = false;
+      }
+    }
+    if(result == true) {
+      arr.push(elc);
+    }
+  }
+  // Only change code above this line
+  return arr;
+}
+
+whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
