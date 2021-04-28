@@ -1,0 +1,4 @@
+kod js jest jednowatkowy czyli kazde zadanie po kolei
+jeœli siê wykonuje async w node to jest wielowatkowe bo node tak na prawde uzywa c++
+
+eventEmitters
