@@ -1,0 +1,9 @@
+﻿module - skrzynka z narzedziami, funkcje w jednym obiekcie
+constructor - tworzenie obiektu slowem new
+factory- uproszczenie tworzenie obiekt�w,np zwraca konkretne repo nie trzeba paru importow
+mozna dzieki temu zrobic repoFactory.getRepo('task').get(1) albo repos.task.get(1)
+singleton - tylko jeden obiekt
+decorator - tworzy nowy obiekt który jest nadtypem poprzedniego
+fasada - tworzy interfejs upraszczajacy skomplikowany system
+flyweight - trzymanie powtarzalnych rzeczy np. ważność notatki w obiekcie
+observer- obeserwator obserwuje czy sa zmiany w innym obiekcie jesli sa to wywoluje dana funkcje
