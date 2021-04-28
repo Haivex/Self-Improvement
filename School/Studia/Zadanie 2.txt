@@ -1,2 +1,0 @@
-Przeœlij zmodyfikowany program kalkulatora z zadania 4, tak aby program by³ zapêtlony (pozwala³ wykonaæ wiêcej ni¿ jedn¹ operacjê bez restartu), oraz dodaj mo¿liwoœæ wykonania operacji z wynikiem z poprzedniego dzia³ania.
-Z poprzedniego wynik, lub nowe dzialanie, lub wyjscie
