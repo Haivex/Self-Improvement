@@ -1,0 +1,15 @@
+Brak regu³ = brak agregatu
+Agregat nie moze mieæ innych agregatów mo¿e mieæ numer agregatu, powiazana kolekcja encji, spóne (dane z zewnatrz nie moga zmieniac)
+Repository - We use repositories in order to retrieve domain objects from persistence technologies
+Factory - We'll want to create domain objects in many different ways. We map to domain objects using a factory that operates on raw sql rows
+
+pobieranie snapshotu ownera po stronie produktu
+Kroki Event Storming:
+1. Event (czas przesz³y, dokonany) Storming Behaving brak kolejnoœci (¿ó³ta kartka)
+2. Rygor czasu - co sie po kolei musia³o zadziaæ - alternatywy w kolumnie
+3. Weryfikacja od koñca - sprawdzam od koñca co musia³o siê zadziaæ
+4. Command dla kazdego systemu szukac przyczyny, dlaczego to zdarzenie zaistnia³o - czy przysz³o z zewn¹trz (czerwona kartka) czy od poprzedniego zdarzenia
+5. Regu³y - dlaczego mam alternatywe, dlaczego to poci¹ga to zdarzenie
+6. Agregaty - regu³y os³ania sie agregatem (niebieskia linia)
+7. Widoki
+
