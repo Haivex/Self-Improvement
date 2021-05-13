@@ -1,0 +1,11 @@
+Generator kontrolera users
+nest g controller users
+
+nest g module games
+nest g class game --no-spec
+no-spec oznacza brak plikow do testow
+
+provider
+klasa mająca dekorator @Injectable
+umozliwia wstrzykiwanie zależności ( dependency injection )
+providerami moga być service, factory, repository, helper
